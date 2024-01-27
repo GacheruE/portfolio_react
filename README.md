@@ -1,3 +1,5 @@
+The deployed version can be found here https://gacherue.github.io/portfolio_react/
+
 Questions
 1.	What is NPM?
 The Node Package Manager is a package manager for JavaScript mainly used with Node.js. It allows developers to discover, install, manage, and publish packages of reusable code, primarily focused on Node.js modules.
