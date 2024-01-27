@@ -21,7 +21,7 @@ const About = () => {
             
             
             <div className='w-[4000px] h-[300px] rounded-full overflow-hidden shadow-lg'>
-              <img src={Photo} alt='About' className="w-full h-full object-cover"  />
+              <img src={Photo} alt='About' className='w-full h-full object-cover'  />
             </div>
           </div>
         </div>
