@@ -29,7 +29,7 @@ const Project = () => {
           },
     ];
         return (
-            <div className='bg-gray-100 py-8'>
+            <div name='project' className='bg-gray-100 py-8'>
               <div className='container mx-auto px-4'>
                 <h2 className='text-3xl font-semibold text-gray-800 text-center mb-8 '>Projects</h2>
         

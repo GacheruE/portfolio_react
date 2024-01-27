@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <footer className='bg-gray-800 text-white py-8'>
-      <div className='container mx-auto flex flex-col items-center justify-center'>
+      <div name='footer' className='container mx-auto flex flex-col items-center justify-center'>
       <p className='text-2xl font-bold inline border-b-4 border-cyan-200 mb-8 '>Contacts</p>
         <div className='flex space-x-4 mb-4'>
           {/* LinkedIn Icon */}
