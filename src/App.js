@@ -16,7 +16,6 @@ function App() {
       <About />
       <Skills />
       <Project />
-      <ExternalAPI />
       <Footer />
     </div>
   );
