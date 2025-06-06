@@ -1,7 +1,7 @@
 import React from 'react';
 import O1 from '../assets/O2.jpg';
-import Kodisha from '../assets/Kodisha.jpg';
-import Happy from '../assets/Happy.png';
+import Dashboard from '../assets/dash.png';
+import MLHeart from '../assets/heart.png';
 
 const Project = () => {
   const projects = [
@@ -9,25 +9,25 @@ const Project = () => {
       id: 1,
       title: 'Onion Doctor',
       description: 'An onion leaf disease detection machine learning system with an android application for the user interface.',
-      technologies: ['Pandas', 'Keras', 'Python'],
+      technologies: ['Python', 'Keras', 'Pandas'],
       githubLink: 'https://github.com/GacheruE/OnionDoctor',
       image: O1,
     },
     {
       id: 2,
-      title: 'Kodisha',
-      description: 'This is a web application that allows agents to post house listings and allows clients to view listings depending on their specifications and filters.',
-      technologies: ['Bootstrap', 'PHP', 'MYSQL'],
-      githubLink: 'https://github.com/GacheruE/Kodisha',
-      image: Kodisha,
+      title: 'Maji Ndogo Water Dashboard',
+      description: 'A multi-page Power BI dashboard visualizing national and provincial water infrastructure improvements, budget allocations, and population impact.',
+      technologies: ['Power BI', 'Data Visualization', 'Data Storytelling'],
+      githubLink: '',
+      image: Dashboard,
     },
     {
       id: 3,
-      title: 'Happy Hoagie',
-      description: 'A web application for a restaurant called Happie Hoagie for customers to be able to order food and the restaurant to be able to post,edit or delete menu items.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
-      githubLink: 'https://github.com/GacheruE/Happy_Hoagie',
-      image: Happy,
+      title: 'Heart Disease Prediction',
+      description: 'A machine learning pipeline that predicts heart disease risk using scaled features, PCA, LightGBM, and cross-validation with early stopping.',
+      technologies: ['Python', 'scikit-learn', 'LightGBM', 'PCA'],
+      githubLink: 'https://github.com/GacheruE/Heart_Disease',
+      image: MLHeart,
     },
   ];
 
@@ -54,14 +54,16 @@ const Project = () => {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={project.githubLink}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-blue-500 hover:underline'
-                >
-                  GitHub Repo
-                </a>
+                {project.githubLink && (
+                  <a
+                    href={project.githubLink}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-blue-500 hover:underline'
+                  >
+                    GitHub Repo
+                  </a>
+                )}
               </div>
             </div>
           ))}
