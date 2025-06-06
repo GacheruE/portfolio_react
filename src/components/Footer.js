@@ -25,7 +25,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} className='h-8 w-8 fill-current' />
           </a>
         </div>
-        <p>&copy; 2024 Gacheru</p>
+        <p>&copy; 2025 Gacheru</p>
       </div>
     </footer>
   );

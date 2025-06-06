@@ -9,7 +9,7 @@ const Project = () => {
       id: 1,
       title: 'Onion Doctor',
       description: 'An onion leaf disease detection machine learning system with an android application for the user interface.',
-      technologies: ['Android', 'Kotlin', 'Python'],
+      technologies: ['Python', 'Keras', 'Pandas'],
       githubLink: 'https://github.com/GacheruE/OnionDoctor',
       image: O1,
     },
